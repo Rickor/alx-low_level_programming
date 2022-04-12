@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *_islower - entry point
-*c- variable to compare
+*@c: contains value to be compared
 *Return: always 0
 */
 int _islower(int c)
