@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*times_tables - entry
-*
-*Return: always 0
-*/
+ * times_table -prints tables
+ *
+ * Return: Always 0.
+ */
 void times_table(void)
 {
 int a;
@@ -19,7 +19,6 @@ if ((c / 10) == 0)
 if (b == 0)
 {
 _putchar ('0');
-
 }
 if (b != 0)
 {
@@ -29,7 +28,7 @@ _putchar ((c % 10) + '0');
 if (b < 9)
 {
 _putchar(',');
-_putchar(' ');
+_putchar (' ');
 }
 }
 else
@@ -39,7 +38,7 @@ _putchar ((c % 10) + '0');
 if (b < 9)
 {
 _putchar(',');
-_putchar(' ');
+_putchar (' ');
 }
 }
 }
