@@ -1,24 +1,40 @@
 #include "main.h"
 /**
-*more_numbers - print numbers
-*
+*more_numbers - print
 *Return: always 0
 */
 void more_numbers(void)
 {
 int i;
-count = 0;
+int first_number;
+int second_number;
+int result;
 
-while (count < 10)
+i = 0;
+result = 0;
+while (1 < 10)
 {
-
-for (i = 0; i <= 14; i++)
+while (result <= 14)
 {
-_putchar(i);
-}
-_putchar('\n');
-count++;
+if (result < 10)
+{
+second_number = result;
 }
 
+else
+{
+first_number = result / 10;
+second_number = result % 10;
+_putchar (first_number + '0');
+}
+
+_putchar (second_number + '0');
+
+result++;
+}
+i++;
+result = 0;
 _putchar('\n');
+}
+
 }
