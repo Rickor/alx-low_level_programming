@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*_isdigit - evaluate if letter is digit
+*_isdigit - evaluate digit
 *@c: print int
-*Return: 1 if digit
+*Return: always 0
 */
 int _isdigit(int c)
 {
 
-if ( c >= 0 && c <= 9)
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
