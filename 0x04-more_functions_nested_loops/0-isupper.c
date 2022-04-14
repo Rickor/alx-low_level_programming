@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*_isupper - if parameter uppercase
-*@c - parameter to check
-*Return: always 0
+*_isupper - evaluate if letter is uppercase
+*@c: print int
+*Return: 1 if uppercase
 */
 int _isupper(int c)
 {
@@ -15,5 +15,4 @@ else
 {
 return (0);
 }
-
 }
